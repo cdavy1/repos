@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayWithEquality", "PlayWithEquality\PlayWithEquality.csproj", "{83B81D0F-8FDF-4742-9019-D459B4815C5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8D1AC958-FF33-4C56-AC22-77280D77E508}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83B81D0F-8FDF-4742-9019-D459B4815C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B81D0F-8FDF-4742-9019-D459B4815C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B81D0F-8FDF-4742-9019-D459B4815C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B81D0F-8FDF-4742-9019-D459B4815C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE197401-D9E9-421D-B792-D00B466CFCF1}
+	EndGlobalSection
+EndGlobal

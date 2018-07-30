@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Wishlist", "..\..\WebSites\Wishlist\", "{35971E1D-6469-4E22-BA89-860FFA1A06C8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{742fcd4f-adaf-4467-a6b0-ec9e34b74a7a}|ListTests.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56743"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Wishlist\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56743\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56743"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Wishlist\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56743\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56743"
+		SlnRelativePath = "..\..\WebSites\Wishlist\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{93FBF6CC-92E5-4B81-9569-78E3513BFCF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListTests", "ListTests\ListTests.csproj", "{742FCD4F-ADAF-4467-A6B0-EC9E34B74A7A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{35971E1D-6469-4E22-BA89-860FFA1A06C8} = {35971E1D-6469-4E22-BA89-860FFA1A06C8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35971E1D-6469-4E22-BA89-860FFA1A06C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35971E1D-6469-4E22-BA89-860FFA1A06C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35971E1D-6469-4E22-BA89-860FFA1A06C8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{35971E1D-6469-4E22-BA89-860FFA1A06C8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{742FCD4F-ADAF-4467-A6B0-EC9E34B74A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742FCD4F-ADAF-4467-A6B0-EC9E34B74A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742FCD4F-ADAF-4467-A6B0-EC9E34B74A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742FCD4F-ADAF-4467-A6B0-EC9E34B74A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{742FCD4F-ADAF-4467-A6B0-EC9E34B74A7A} = {93FBF6CC-92E5-4B81-9569-78E3513BFCF9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6D7CEFA-080C-475A-AA21-AA4854575A64}
+	EndGlobalSection
+EndGlobal
